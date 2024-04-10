@@ -45,12 +45,57 @@ label i{
 }
 label{
     padding: 6px;
-    width: 100%;
+    
     border-top-right-radius: 20px;
     display: flex;
     align-items: center;
     background: #000;
 }
+textarea::-webkit-scrollbar{
+    display: none;
+}
 .right label {
     margin-left: 10%;
+    min-width: 100%;
+}
+
+.fa-code{
+    color: red;
+}
+.fa-css3{
+    color: rgb(110, 206, 250);
+}
+.fa-js{
+    color: yellow;
+}
+.left label {
+    width: 103.5%;
+}
+
+.output-top{
+    display: flex;
+}
+.fontSize{
+    margin-left: 52%;
+    font-size: 12px;
+}
+.fontSize button{
+    cursor: pointer;
+    background: none;
+    color: #fff;
+    outline: none;
+    border:  1px solid #454545;
+    border-radius: 20px;
+    padding: 2px 10px;
+}
+.fontSize button:hover{
+ background-color: aqua;
+ transition: 1s linear;
+ color: #000;
+}
+.fa-circle-half-stroke{
+    /* color: #454545; */
+    color: #fff;
+    cursor: pointer;
+    margin-left: 50px;
 }
