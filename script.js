@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         console.log("data saved");
     }
+    
 
     function retrieveCode() {
         let html = localStorage.getItem("html");
